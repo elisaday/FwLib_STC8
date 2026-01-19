@@ -262,29 +262,29 @@ typedef enum
     //                PWM1P   PWM1N
     PWMA_PWM1_AlterPort_P10_P11 = 0x00,
     PWMA_PWM1_AlterPort_P20_P21 = 0x01,
-    PWMA_PWM1_AlterPort_P60_P61 = 0x10,
+    PWMA_PWM1_AlterPort_P60_P61 = 0x02,
 } PWMA_PWM1_AlterPort_t;
 
 typedef enum
 {
     PWMA_PWM2_AlterPort_P12P54_P13 = 0x00,
     PWMA_PWM2_AlterPort_P22_P23 = 0x01,
-    PWMA_PWM2_AlterPort_P62_P63 = 0x10,
+    PWMA_PWM2_AlterPort_P62_P63 = 0x02,
 } PWMA_PWM2_AlterPort_t;
 
 typedef enum
 {
     PWMA_PWM3_AlterPort_P14_P15 = 0x00,
     PWMA_PWM3_AlterPort_P24_P25 = 0x01,
-    PWMA_PWM3_AlterPort_P64_P65 = 0x10,
+    PWMA_PWM3_AlterPort_P64_P65 = 0x02,
 } PWMA_PWM3_AlterPort_t;
 
 typedef enum
 {
     PWMA_PWM4_AlterPort_P16_P17 = 0x00,
     PWMA_PWM4_AlterPort_P26_P27 = 0x01,
-    PWMA_PWM4_AlterPort_P66_P67 = 0x10,
-    PWMA_PWM4_AlterPort_P34_P33 = 0x11,
+    PWMA_PWM4_AlterPort_P66_P67 = 0x02,
+    PWMA_PWM4_AlterPort_P34_P33 = 0x03,
 } PWMA_PWM4_AlterPort_t;
 
 // Alternative port selection
